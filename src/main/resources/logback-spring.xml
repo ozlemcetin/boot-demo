@@ -1,0 +1,11 @@
+<!--rename the file logback-spring.xml for logging configuration when using Spring Boot
+    it grants Spring complete control over the log initialization-->
+<configuration>,
+
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <logger name="academy.learnprogramming" level="DEBUG"/>
+    <logger name="org.springframework" level="DEBUG"/>
+
+    <!--TRACE, DEBUG, INFO, WARN, ERROR  -->
+</configuration>
